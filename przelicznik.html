@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik jednostek</title>
+    <link rel="stylesheet" href="przelicznik.css">
+</head>
+<body>
+    <h1>Przelicznik jednostek</h1>
+    <div class="converter">
+        <label for="inputValue">Wartość:</label>
+        <input type="number" id="inputValue">
+        <select id="unitFrom">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button onclick="convert()">Przelicz</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="przelicznik.js"></script>
+</body>
+</html>
